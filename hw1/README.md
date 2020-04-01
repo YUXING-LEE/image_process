@@ -13,7 +13,7 @@
 
 ## 原圖
 
-![origin]](./lena.jpg)
+![origin]](./origin/lena.jpg)
 
 ## 灰階
 

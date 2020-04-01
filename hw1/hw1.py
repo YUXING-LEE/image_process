@@ -71,7 +71,7 @@ def start(image, kernel_size_list, data_size):
 
 def main():
     # load image
-    origin = cv2.imread("lena.jpg")
+    origin = cv2.imread("origin/lena.png")
     # convert to gray
     gray = cv2.cvtColor(origin, cv2.COLOR_BGR2GRAY)
     cv2.imwrite("result/gray.png", gray)
