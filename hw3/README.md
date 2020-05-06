@@ -33,5 +33,23 @@
 ![result](./result/road3_4.jpeg)
 
 
-參考：https://chtseng.wordpress.com/2017/04/07/%E9%80%8F%E9%81%8E%E8%91%89%E7%89%87%E7%B4%8B%E7%90%86%E5%88%A4%E6%96%B7%E6%A4%8D%E7%89%A9%E7%A8%AE%E9%A1%9E-%E4%BD%BF%E7%94%A8lbp/
+#利用WaterShed進行處理
 
+### 函式：
+cv2.watershed(輸入圖像,標記區塊)
+
+##原圖
+![origin](./origin/road3.jpeg)
+
+##找出水點
+![result-1](./result-1/result_0road3.jpeg)
+
+##結果
+![result-1](./result-1/result_1road3.jpeg)
+
+![result-1](./result-1/result_2road3.jpeg)
+
+![result-1](./result-1/result_3road3.jpeg)
+
+
+參考：https://chtseng.wordpress.com/2017/04/07/%E9%80%8F%E9%81%8E%E8%91%89%E7%89%87%E7%B4%8B%E7%90%86%E5%88%A4%E6%96%B7%E6%A4%8D%E7%89%A9%E7%A8%AE%E9%A1%9E-%E4%BD%BF%E7%94%A8lbp/
