@@ -33,18 +33,18 @@
 ![result](./result/road3_4.jpeg)
 
 
-#利用WaterShed進行處理
+# 利用WaterShed進行處理
 
 ### 函式：
 cv2.watershed(輸入圖像,標記區塊)
 
-##原圖
+## 原圖
 ![origin](./origin/road3.jpeg)
 
-##找出水點
+## 找出水點
 ![result-1](./result-1/result_0road3.jpeg)
 
-##結果
+## 結果
 ![result-1](./result-1/result_1road3.jpeg)
 
 ![result-1](./result-1/result_2road3.jpeg)
