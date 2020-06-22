@@ -27,8 +27,8 @@ def train(fileName):
     svm.save(output_model_path)
     return input_file["model_name"] + ".xml"
 
-host = '163.18.49.33'
-port = 8001
+host = '192.168.101.116'
+port = 3000
 fmt = '128si'
 buffer_size = 8096
  
@@ -72,4 +72,5 @@ while 1:
     fd.close()
     # 刪除模型
     os.remove(model_name)
+    os.remove(filename)
     print("Work complete")
